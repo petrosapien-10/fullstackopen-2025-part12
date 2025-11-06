@@ -1,0 +1,325 @@
+Script started on Wed Oct  8 15:57:41 2025
+Restored session: Wed Oct  8 15:55:37 EEST 2025
+                                             ___
+                                          ,o88888
+                                       ,o8888888'
+                 ,:o:o:oooo.        ,8O88Pd8888"
+             ,.::.::o:ooooOoOoO. ,oO8O8Pd888'"
+           ,.:.::o:ooOoOoOO8O8OOo.8OOPd8O8O"
+          , ..:.::o:ooOoOOOO8OOOOo.FdO8O8"
+         , ..:.::o:ooOoOO8O888O8O,COCOO"
+        , . ..:.::o:ooOoOOOO8OOOOCOCO"      _____        _               _   _          
+         . ..:.::o:ooOoOoOO8O8OCCCC"o      | ____|_ __  (_) ___  _   _  | |_| |__   ___ 
+            . ..:.::o:ooooOoCoCCC"o:o      |  _| | '_ \ | |/ _ \| | | | | __| '_ \ / _ \
+            . ..:.::o:o:,cooooCo"oo:o:     | |___| | | || | (_) | |_| | | |_| | | |  __/
+         `   . . ..:.:cocoooo"'o:o:::'     |_____|_| |_|/ |\___/ \__, |  \__|_| |_|\___|
+         .`   . ..::ccccoc"'o:o:o:::'                  |__/      |___/                  
+        :.:.    ,c:cccc"':.:.:.:.:.'          _                                      _
+      ..:.:"'`::::c:"'..:.:.:.:.:.'          (_) ___  _   _ _ __ _ __   ___ _   _   | |
+    ...:.'.:.::::"'    . . . . .'            | |/ _ \| | | | '__| '_ \ / _ \ | | |  | |
+   .. . ....:."' `   .  . . ''               | | (_) | |_| | |  | | | |  __/ |_| |  |_|
+ . . . ...."'                               _/ |\___/ \__,_|_|  |_| |_|\___|\__, |   _
+ .. . ."'                                  |__/                             |___/   (_)
+. 
+    
+[1m[7m%[27m[1m[0m                                                                                           ]7;file://Mac/Users/petrosapien/web-dev/part12-docker/part12-containers-applications]2;petrosapien@Mac]1;..-applications]7;file://Mac/Users/petrosapien/web-dev/part12-docker/part12-containers-applications\[0m[27m[24m[J[0m[49m[39m
+[A[38;5;238m╭─[0m[38;5;238m[47m[38;5;232m [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/[38;5;250mwe[0m[38;5;250m[44m[44m[38;5;254m/part12-docker/[1m[38;5;254m[44m[38;5;255mpart12-containers-applications[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[42m[34m[0m[34m[42m[42m[30m   [30m main [30m?2[0m[30m[42m[42m[30m [0m[30m[42m[49m[32m[0m[32m[49m[39m[38;5;238m─[0m[38;5;238m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[40m[32m[37m[0m[37m[40m[47m[30m 15:57:42[0m[30m[47m[47m[30m  [0m[30m[47m[47m[30m [0m[30m[47m[49m[39m
+[0m[49m[39m[38;5;238m╰─[0m[38;5;238m[49m[39m[0m[49m[39m [0m[49m[39m[K[?1h=[?2004hc[1m[31mc[0m[39m[1m[31mc[0m[39m[90mlear[39m[1m[31mc[1m[31ml[0m[39m[1m[31mc[1m[31ml[1m[31me[0m[39m[1m[31me[1m[31ma[0m[39m[1m[31ma[1m[31mr[0m[39m[0m[32mc[0m[32ml[0m[32me[0m[32ma[0m[32mr[39m[32ma[39m[39m [1m[31mc[1m[31ml[1m[31me[1m[31ma[0m[39m[90mr[39m[1m[31me[0m[39m[0m[39m [39m [90mar[39m[1m[31mc[1m[31ml[0m[39m[0m[39m [39m [39m [90mear[39m[1m[31mc[0m[39m[0m[39m [39m [39m [39m [1m[31mc[0m[39m[90mlear[39m[0m[39m [39m [39m [39m [39m c[1m[31mc[0m[39m[1m[31mc[0m[39m[90mlear[39m[1m[31mc[1m[31ml[0m[39m[1m[31mc[1m[31ml[1m[31me[0m[39m[1m[31me[1m[31ma[0m[39m[1m[31ma[1m[31mr[0m[39m[0m[32mc[0m[32ml[0m[32me[0m[32ma[0m[32mr[39m[?1l>[?2004l
+]2;clear]1;clear[3J[H[2J[1m[7m%[27m[1m[0m                                                                                           ]7;file://Mac/Users/petrosapien/web-dev/part12-docker/part12-containers-applications]2;petrosapien@Mac]1;..-applications]7;file://Mac/Users/petrosapien/web-dev/part12-docker/part12-containers-applications\[0m[27m[24m[J[0m[49m[39m
+[A[38;5;238m╭─[0m[38;5;238m[47m[38;5;232m [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/[38;5;250mwe[0m[38;5;250m[44m[44m[38;5;254m/part12-docker/[1m[38;5;254m[44m[38;5;255mpart12-containers-applications[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[42m[34m[0m[34m[42m[42m[30m   [30m main [30m?2[0m[30m[42m[42m[30m [0m[30m[42m[49m[32m[0m[32m[49m[39m[38;5;238m─[0m[38;5;238m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[40m[32m[37m[0m[37m[40m[47m[30m 15:58:23[0m[30m[47m[47m[30m  [0m[30m[47m[47m[30m [0m[30m[47m[49m[39m
+[0m[49m[39m[38;5;238m╰─[0m[38;5;238m[49m[39m[0m[49m[39m [0m[49m[39m[K[?1h=[?2004hv[1m[31mv[0m[39m[1m[31mv[0m[39m[90mim ~/.zshrc[39m[11D[1m[31mv[1m[31mi[0m[39m[0m[32mv[0m[32mi[39m[32mv[32mi[32mm[39m[32mm[32m [39m[32mm[39m[39m [39m~[39m/[39m.[39mz[39ms[39mh[39mr[39mc[8D[4m~[4m/[4m.[4mz[4ms[4mh[4mr[4mc[24m[?1l>[?2004l
+]2;vim ~/.zshrc]1;vim[?1049h[>4;2m[?1h=[?2004h[?1004h[1;50r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[50;1H"~/.zshrc" 146L, 6388B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n][2;78H[K[3;1H# Prevent Powerlevel10k warning[3;32H[K[4;1Htypeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+
+# Path to your Oh My Zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
+
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time Oh My Zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+ZSH_THEME="powerlevel10k/powerlevel10k"
+
+# Set list of themes to pick from when loading at random
+# Setting this variable when ZSH_THEME=random will cause zsh to load
+# a theme from this variable instead of looking in $ZSH/themes/
+# If set to an empty array, this variable will have no effect.
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
+
+# Uncomment the following line to use case-sensitive completion.
+# CASE_SENSITIVE="true"
+
+# Uncomment the following line to use hyphen-insensitive completion.
+# Case-sensitive completion must be off. _ and - will be interchangeable.
+# HYPHEN_INSENSITIVE="true"
+
+# Uncomment one of the following lines to change the auto-update behavior
+# zstyle ':omz:update' mode disabled  # disable automatic updates
+# zstyle ':omz:update' mode auto      # update automatically without asking
+# zstyle ':omz:update' mode reminder  # just remind me to update when it's time
+
+# Uncomment the following line to change how often to auto-update (in days).
+# zstyle ':omz:update' frequency 13
+
+# Uncomment the following line if pasting URLs and other text is messed up.
+# DISABLE_MAGIC_FUNCTIONS="true"
+
+# Uncomment the following line to disable colors in ls.
+# DISABLE_LS_COLORS="true"[1;1H[?25h[?4m[27m[23m[29m[m[H[2J[?25l[1;1H# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# Prevent Powerlevel10k warning
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+
+# Path to your Oh My Zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
+
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time Oh My Zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+ZSH_THEME="powerlevel10k/powerlevel10k"
+
+# Set list of themes to pick from when loading at random
+# Setting this variable when ZSH_THEME=random will cause zsh to load
+# a theme from this variable instead of looking in $ZSH/themes/
+# If set to an empty array, this variable will have no effect.
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
+
+# Uncomment the following line to use case-sensitive completion.
+# CASE_SENSITIVE="true"
+
+# Uncomment the following line to use hyphen-insensitive completion.
+# Case-sensitive completion must be off. _ and - will be interchangeable.
+# HYPHEN_INSENSITIVE="true"
+
+# Uncomment one of the following lines to change the auto-update behavior
+# zstyle ':omz:update' mode disabled  # disable automatic updates
+# zstyle ':omz:update' mode auto      # update automatically without asking
+# zstyle ':omz:update' mode reminder  # just remind me to update when it's time
+
+# Uncomment the following line to change how often to auto-update (in days).
+# zstyle ':omz:update' frequency 13
+
+# Uncomment the following line if pasting URLs and other text is messed up.
+# DISABLE_MAGIC_FUNCTIONS="true"
+
+# Uncomment the following line to disable colors in ls.
+# DISABLE_LS_COLORS="true"
+
+"~/.zshrc" 146L, 6388B[1;1H[?25h
+
+
+[?25l[50;1HAlready at oldest change[4;1H[?25h[3;31H[4;29H[5;29H[6;29H[7;29H[8;29H
+f
+[11;29H[12;29H
+[14;29H[15;29H
+[17;29H[18;29H[19;29H[20;29H[21;29H
+[23;29H[24;29H[25;29H[26;29H[27;29H
+[29;29H[30;23H
+[32;29H[33;29H[34;27H
+[36;29H[37;29H[38;29H[39;29H
+[41;29H[42;29H
+[44;29H[45;29H
+[47;29H[48;26H
+[?25l[1;49r[49;1H
+[1;50r[49;1H# Uncomment the following line to disable auto-setting terminal title.[50;1H[K[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# DISABLE_AUTO_TITLE="true"[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# Uncomment the following line to enable command auto-correction.[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# ENABLE_CORRECTION="true"[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# Uncomment the following line to display red dots whilst waiting for completion.[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# You can also set it to another string to have that shown instead of the default red dots.[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# e.g. COMPLETION_WAITING_DOTS="%F{yellow}waiting...%f"[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# Caution: this setting can cause issues with multiline prompts in zsh < 5.7.1 (see #5765)[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# COMPLETION_WAITING_DOTS="true"[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# Uncomment the following line if you want to disable marking untracked files[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# under VCS as dirty. This makes repository status check for large repositories[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# much, much faster.[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# DISABLE_UNTRACKED_FILES_DIRTY="true"[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# Uncomment the following line if you want to change the command execution time[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# stamp shown in the history command output.[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# You can set one of the optional three formats:[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# or set a custom format using the strftime function format specifications,[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# see 'man strftime' for details.[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# HIST_STAMPS="mm/dd/yyyy"[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# Would you like to use another custom folder than $ZSH/custom?[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# ZSH_CUSTOM=/path/to/new-custom-folder[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# Which plugins would you like to load?[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# Standard plugins can be found in $ZSH/plugins/[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# Custom plugins may be added to $ZSH_CUSTOM/plugins/[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# Example format: plugins=(rails git textmate ruby lighthouse)[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# Add wisely, as too many plugins slow down shell startup.[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1Hplugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1Hsource $ZSH/oh-my-zsh.sh[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# User configuration[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# export MANPATH="/usr/local/man:$MANPATH"[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# You may need to manually set your language environment[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# export LANG=en_US.UTF-8[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# Preferred editor for local and remote sessions[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# if [46m[[m[ -n $SSH_CONNECTION ][46m][m; then[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[48;6H[[22C]
+#   export EDITOR='vim'[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# else[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H#   export EDITOR='nvim'[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# fi[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# Compilation flags[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# export ARCHFLAGS="-arch $(uname -m)"[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# Set personal aliases, overriding those provided by Oh My Zsh libs,[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# plugins, and themes. Aliases can be placed here, though Oh My Zsh[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# users are encouraged to define aliases within a top-level file in[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# the $ZSH_CUSTOM folder, with .zsh extension. Examples:[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# - $ZSH_CUSTOM/aliases.zsh[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# - $ZSH_CUSTOM/macos.zsh[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# For a full list of active aliases, run `alias`.[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H#[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# Example aliases[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# alias zshconfig="mate ~/.zshrc"[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# alias ohmyzsh="mate ~/.oh-my-zsh"[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1Hif [[ $- == *i* ]]; then[?25h[?25l[1;49r[49;1H
+[1;50r[49;3Hcat <<'EOF'[?25h[?25l[1;49r[49;1H
+[1;50r[49;46H___[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;43H,o88888[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;40H,o8888888'[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;18H,:o:o:oooo.[8C,8O88Pd8888"[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;14H,.::.::o:ooooOoOoO. ,oO8O8Pd888'"[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;12H,.:.::o:ooOoOoOO8O8OOo.8OOPd8O8O"[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;11H, ..:.::o:ooOoOOOO8OOOOo.FdO8O8"[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;10H, ..:.::o:ooOoOO8O888O8O,COCOO"[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;9H, . ..:.::o:ooOoOOOO8OOOOCOCO"      _____[8C_[15C_   _[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;10H. ..:.::o:ooOoOoOO8O8OCCCC"o      | ____|_ __  (_) ___  _   _  | |_| |__   ___[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;13H. ..:.::o:ooooOoCoCCC"o:o      |  _| | '_ \ | |/ _ \| | | | | __| '_ \ / _ \[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;13H. ..:.::o:o:,cooooCo"oo:o:     | |___| | | || | (_) | |_| | | |_| | | |  __/[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;10H`   . . ..:.:cocoooo"'o:o:::'     |_____|_| |_|/ |\___/ \__, |  \__|_| |_|\___|[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;10H.`   . ..::ccccoc"'o:o:o:::'[18C|__/      |___/[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;9H:.:.    ,c:cccc"':.:.:.:.:.'[10C_[38C_[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;7H..:.:"'`::::c:"'..:.:.:.:.:.'[10C(_) ___  _   _ _ __ _ __   ___ _   _   | |[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;5H...:.'.:.::::"'    . . . . .'[12C| |/ _ \| | | | '__| '_ \ / _ \ | | |  | |[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;4H.. . ....:."' `   .  . . ''[15C| | (_) | |_| | |  | | | |  __/ |_| |  |_|[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;2H. . . ...."'[31C_/ |\___/ \__,_|_|  |_| |_|\___|\__, |   _[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;2H.. . ."'[34C|__/[29C|___/   (_)[49;29H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H.[?25h[?25l[1;49r[49;1H
+[1;50r[49;4H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1HEOF[?25h[?25l[1;49r[49;1H
+[1;50r[49;1Hfi[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1Hexport NVM_DIR="$HOME/.nvm"[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm[49;29H[?25h[?25l[1;49r[1;1H[2M[1;50r[48;1H[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_cc[49;1Hompletion[48;29H[?25h[47;29H[46;27H[45;1H[44;2H[43;3H[42;4H[41;2H[40;29H[39;29H[38;29H[37;29H[36;29H[35;29H[34;29H[33;29H[32;29H[31;29H[30;29H[29;29H[28;29H[27;29H[26;29H[25;29H[24;29H[23;29H[22;29H[21;29H[20;13H[19;24H[18;29H[17;29H[16;29H[15;29H[14;17H[13;1H[12;29H[11;25H[10;27H[9;29H[8;29H[7;29H[6;29H[5;1H[4;29H[3;19H[2;1H[1;4H[?25l[1;49r[1;1H[L[1;50r[1;1H#   export EDITOR='nvim'[49;1H[94m@                                                                                          [1;24H[?25h[?25l[1;49r[m[1;1H[L[1;50r[1;1H# else[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H#   export EDITOR='vim'[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# if [46m[[m[ -n $SSH_CONNECTION ][46m][m; then[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# Preferred editor for local and remote sessions[2;6H[[22C][1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# export LANG=en_US.UTF-8[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# You may need to manually set your language environment[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# export MANPATH="/usr/local/man:$MANPATH"[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# User configuration[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1Hsource $ZSH/oh-my-zsh.sh[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1Hplugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# Add wisely, as too many plugins slow down shell startup.[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# Example format: plugins=(rails git textmate ruby lighthouse)[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# Custom plugins may be added to $ZSH_CUSTOM/plugins/[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# Standard plugins can be found in $ZSH/plugins/[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# Which plugins would you like to load?[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# ZSH_CUSTOM=/path/to/new-custom-folder[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# Would you like to use another custom folder than $ZSH/custom?[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# HIST_STAMPS="mm/dd/yyyy"[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# see 'man strftime' for details.[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# or set a custom format using the strftime function format specifications,[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# You can set one of the optional three formats:[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# stamp shown in the history command output.[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# Uncomment the following line if you want to change the command execution time[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# DISABLE_UNTRACKED_FILES_DIRTY="true"[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# much, much faster.[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# under VCS as dirty. This makes repository status check for large repositories[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# Uncomment the following line if you want to disable marking untracked files[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# COMPLETION_WAITING_DOTS="true"[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# Caution: this setting can cause issues with multiline prompts in zsh < 5.7.1 (see #5765)[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# e.g. COMPLETION_WAITING_DOTS="%F{yellow}waiting...%f"[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# You can also set it to another string to have that shown instead of the default red dots.[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# Uncomment the following line to display red dots whilst waiting for completion.[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# ENABLE_CORRECTION="true"[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# Uncomment the following line to enable command auto-correction.[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# DISABLE_AUTO_TITLE="true"[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# Uncomment the following line to disable auto-setting terminal title.[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# DISABLE_LS_COLORS="true"[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# Uncomment the following line to disable colors in ls.[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# DISABLE_MAGIC_FUNCTIONS="true"[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# Uncomment the following line if pasting URLs and other text is messed up.[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# zstyle ':omz:update' frequency 13[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# Uncomment the following line to change how often to auto-update (in days).[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# zstyle ':omz:update' mode reminder  # just remind me to update when it's time[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# zstyle ':omz:update' mode auto      # update automatically without asking[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# zstyle ':omz:update' mode disabled  # disable automatic updates[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# Uncomment one of the following lines to change the auto-update behavior[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# HYPHEN_INSENSITIVE="true"[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# Case-sensitive completion must be off. _ and - will be interchangeable.[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# Uncomment the following line to use hyphen-insensitive completion.[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# CASE_SENSITIVE="true"[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# Uncomment the following line to use case-sensitive completion.[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# If set to an empty array, this variable will have no effect.[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# a theme from this variable instead of looking in $ZSH/themes/[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# Setting this variable when ZSH_THEME=random will cause zsh to load[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# Set list of themes to pick from when loading at random[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1HZSH_THEME="powerlevel10k/powerlevel10k"[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# to know which specific one was loaded, run: echo $RANDOM_THEME[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# load a random theme each time Oh My Zsh is loaded, in which case,[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# Set name of the theme to load --- if set to "random", it will[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1Hexport ZSH="$HOME/.oh-my-zsh"[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# Path to your Oh My Zsh installation.[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# If you come from bash you might have to change your $PATH.[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1Hfi[?25h[?25l[1;49r[1;1H[L[1;50r[1;3Hsource "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1Hif [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# confirmations, etc.) must go above this block; everything else may go below.[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1Htypeset -g POWERLEVEL9K_INSTANT_PROMPT=off[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1Htypeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet[1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# Prevent Powerlevel10k warning[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# Initialization code that may require console input (password prompts, [y/n][1;29H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.[1;29H[?25h[2;29H[3;29H[4;29H[5;29H[6;29H[7;29H[8;29H
+f
+[11;29H[12;29H
+[14;29H[15;29H[14;29H[13;1H[12;29H[11;29H[10;1H[9;2H[8;29H[7;29H[6;29H[5;29H[4;29H[3;29H[2;29H[1;29H[2;29H[3;29H[4;29H[5;29H[6;29H[7;29H[8;29H
+f
+[11;29H[12;29H
+[14;29H[15;29H[?25l[50;1H/[?25hoh0[?25l[50;4H[K[50;4H[?25h-my-zsh[?25l[1;1H[K[2;3HUncomment the following line if you want to disable marking untracked files
+# under VCS as dirty. This makes repository status check for large repositories
+# much, much faster.[4;21H[K[5;1H# DISABLE_UNTRACKED_FILES_DIRTY="true"[5;39H[K[6;1H[K[7;1H# Uncomment the following line if you want to change the command execution time[7;80H[K[8;1H# stamp shown in the history command output.[8;45H[K[9;1H# You can set one of the optional three formats:
+# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+# or set a custom format using the strftime function format specifications,
+# see 'man strftime' for details.[12;34H[K[13;1H# HIST_STAMPS="mm/dd/yyyy"[14;1H[K[15;1H# Would you like to use another custom folder than $ZSH/custom?
+# ZSH_CUSTOM=/path/to/new-custom-folder[17;1H[K[18;3HWhich plugins would you like to load?[18;40H[K[19;3HStandard plugins can be found in $ZSH/plugins/[19;49H[K[20;3HCustom plugins may be added to $ZSH_CUSTOM/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)[24;1H[K[25;1Hsource $ZSH/oh-my-zsh.sh[25;25H[K[26;1H[K[27;3HUser configuration[27;21H[K[29;3Hexport MANPATH="/usr/local/man:$MANPATH"[29;43H[K[30;1H[K[31;1H# You may need to manually set your language environment
+# export LANG=en_US.UTF-8[32;27H[K[33;1H[K[34;3HPreferred editor for local and remote sessions
+# if [[ -n $SSH_CONNECTION ]]; then
+#   export EDITOR='vim'[36;24H[K[37;3Helse[37;7H[K[38;3H  export EDITOR='nvim'[38;25H[K[39;3Hfi[39;5H[K[41;3HCompilation flags[41;20H[K[42;3Hexport ARCHFLAGS="-arch $(uname -m)"
+
+# Set personal aliases, overriding those provided by Oh My Zsh libs,[44;69H[K[45;3Hplugins, and themes. Aliases can be placed here, though Oh My Zsh
+# users are encouraged to define aliases within a top-level file in
+# the $ZSH_CUSTOM folder, with .zsh extension. Examples:
+# - $ZSH_CUSTOM/aliases.zsh
+# - $ZSH_CUSTOM/macos.zsh[25;13H[?25h
+
+[26;1H[25;1H[?25l[50;1H[1m-- INSERT --[25;1H[?25h[?25l[m#source $ZSH/oh-my-zsh.sh#[?25h[?25l source $ZSH/oh-my-zsh.sh# [?25h[?25l:source $ZSH/oh-my-zsh.sh# :[?25h[?25lsource $ZSH/oh-my-zsh.sh[25;27H[K[25;3H[?25h[50;1H[K[25;2H[?25l[?25h[?25l[50;1H:[?25hwq[?25l[?2004l[>4;m"~/.zshrc" 146L, 6390B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?1049l[?25h[>4;m[1m[7m%[27m[1m[0m                                                                                           ]7;file://Mac/Users/petrosapien/web-dev/part12-docker/part12-containers-applications]2;petrosapien@Mac]1;..-applications]7;file://Mac/Users/petrosapien/web-dev/part12-docker/part12-containers-applications\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m
+[A[38;5;238m╭─[0m[38;5;238m[47m[38;5;232m [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/[38;5;250mwe[0m[38;5;250m[44m[44m[38;5;254m/[38;5;250mp[0m[38;5;250m[44m[44m[38;5;254m/[1m[38;5;254m[44m[38;5;255mpart12-containers-applications[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[42m[34m[0m[34m[42m[42m[30m   [30m main [30m?2[0m[30m[42m[42m[30m [0m[30m[42m[49m[32m[0m[32m[49m[39m[38;5;238m───[0m[38;5;238m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[40m[32m[33m[0m[33m[40m[43m[30m 2m 3s[0m[30m[43m[43m[30m  [0m[30m[43m[43m[30m [0m[30m[43m[43m[30m[37m[0m[37m[43m[47m[30m 16:01:14[0m[30m[47m[47m[30m  [0m[30m[47m[47m[30m [0m[30m[47m[49m[39m
+[0m[49m[39m[38;5;238m╰─[0m[38;5;238m[49m[39m[0m[49m[39m [0m[49m[39m[K[?1h=[?2004hc[1m[31mc[0m[39m[1m[31mc[0m[39m[90mlear[39m[1m[31mc[1m[31ml[0m[39m[1m[31mc[1m[31ml[1m[31me[0m[39m[1m[31me[1m[31ma[0m[39m[1m[31ma[1m[31mr[0m[39m[0m[32mc[0m[32ml[0m[32me[0m[32ma[0m[32mr[39m[?1l>[?2004l
+]2;clear]1;clear[3J[H[2J[1m[7m%[27m[1m[0m                                                                                           ]7;file://Mac/Users/petrosapien/web-dev/part12-docker/part12-containers-applications]2;petrosapien@Mac]1;..-applications]7;file://Mac/Users/petrosapien/web-dev/part12-docker/part12-containers-applications\[0m[27m[24m[J[0m[49m[39m
+[A[38;5;238m╭─[0m[38;5;238m[47m[38;5;232m [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/[38;5;250mwe[0m[38;5;250m[44m[44m[38;5;254m/part12-docker/[1m[38;5;254m[44m[38;5;255mpart12-containers-applications[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[42m[34m[0m[34m[42m[42m[30m   [30m main [30m?2[0m[30m[42m[42m[30m [0m[30m[42m[49m[32m[0m[32m[49m[39m[38;5;238m─[0m[38;5;238m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[40m[32m[37m[0m[37m[40m[47m[30m 16:01:16[0m[30m[47m[47m[30m  [0m[30m[47m[47m[30m [0m[30m[47m[49m[39m
+[0m[49m[39m[38;5;238m╰─[0m[38;5;238m[49m[39m[0m[49m[39m [0m[49m[39m[K[?1h=[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                           ]7;file://Mac/Users/petrosapien/web-dev/part12-docker/part12-containers-applications]2;petrosapien@Mac]1;..-applications]7;file://Mac/Users/petrosapien/web-dev/part12-docker/part12-containers-applications\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m
+[A[38;5;238m╭─[0m[38;5;238m[47m[38;5;232m [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/[38;5;250mwe[0m[38;5;250m[44m[44m[38;5;254m/[38;5;250mp[0m[38;5;250m[44m[44m[38;5;254m/[1m[38;5;254m[44m[38;5;255mpart12-containers-applications[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[42m[34m[0m[34m[42m[42m[30m   [30m main [30m?2[0m[30m[42m[42m[30m [0m[30m[42m[49m[32m[0m[32m[49m[39m[38;5;238m─────────[0m[38;5;238m[41m[33m INT[0m[33m[41m[41m[33m ✘[0m[33m[41m[41m[33m [0m[33m[41m[41m[33m[37m[0m[37m[41m[47m[30m 16:01:17[0m[30m[47m[47m[30m  [0m[30m[47m[47m[30m [0m[30m[47m[49m[39m
+[0m[49m[39m[38;5;238m╰─[0m[38;5;238m[49m[39m[0m[49m[39m [0m[49m[39m[K[?1h=[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                           ]7;file://Mac/Users/petrosapien/web-dev/part12-docker/part12-containers-applications]2;petrosapien@Mac]1;..-applications]7;file://Mac/Users/petrosapien/web-dev/part12-docker/part12-containers-applications\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m
+[A[38;5;238m╭─[0m[38;5;238m[47m[38;5;232m [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/[38;5;250mwe[0m[38;5;250m[44m[44m[38;5;254m/[38;5;250mp[0m[38;5;250m[44m[44m[38;5;254m/[1m[38;5;254m[44m[38;5;255mpart12-containers-applications[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[42m[34m[0m[34m[42m[42m[30m   [30m main [30m?2[0m[30m[42m[42m[30m [0m[30m[42m[49m[32m[0m[32m[49m[39m[38;5;238m─────────[0m[38;5;238m[41m[33m INT[0m[33m[41m[41m[33m ✘[0m[33m[41m[41m[33m [0m[33m[41m[41m[33m[37m[0m[37m[41m[47m[30m 16:01:17[0m[30m[47m[47m[30m  [0m[30m[47m[47m[30m [0m[30m[47m[49m[39m
+[0m[49m[39m[38;5;238m╰─[0m[38;5;238m[49m[39m[0m[49m[39m [0m[49m[39m[K[?1h=[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                           ]7;file://Mac/Users/petrosapien/web-dev/part12-docker/part12-containers-applications]2;petrosapien@Mac]1;..-applications]7;file://Mac/Users/petrosapien/web-dev/part12-docker/part12-containers-applications\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m
+[A[38;5;238m╭─[0m[38;5;238m[47m[38;5;232m [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/[38;5;250mwe[0m[38;5;250m[44m[44m[38;5;254m/[38;5;250mp[0m[38;5;250m[44m[44m[38;5;254m/[1m[38;5;254m[44m[38;5;255mpart12-containers-applications[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[42m[34m[0m[34m[42m[42m[30m   [30m main [30m?2[0m[30m[42m[42m[30m [0m[30m[42m[49m[32m[0m[32m[49m[39m[38;5;238m─────────[0m[38;5;238m[41m[33m INT[0m[33m[41m[41m[33m ✘[0m[33m[41m[41m[33m [0m[33m[41m[41m[33m[37m[0m[37m[41m[47m[30m 16:01:18[0m[30m[47m[47m[30m  [0m[30m[47m[47m[30m [0m[30m[47m[49m[39m
+[0m[49m[39m[38;5;238m╰─[0m[38;5;238m[49m[39m[0m[49m[39m [0m[49m[39m[K[?1h=[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                           ]7;file://Mac/Users/petrosapien/web-dev/part12-docker/part12-containers-applications]2;petrosapien@Mac]1;..-applications]7;file://Mac/Users/petrosapien/web-dev/part12-docker/part12-containers-applications\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m
+[A[38;5;238m╭─[0m[38;5;238m[47m[38;5;232m [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/[38;5;250mwe[0m[38;5;250m[44m[44m[38;5;254m/[38;5;250mp[0m[38;5;250m[44m[44m[38;5;254m/[1m[38;5;254m[44m[38;5;255mpart12-containers-applications[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[42m[34m[0m[34m[42m[42m[30m   [30m main [30m?2[0m[30m[42m[42m[30m [0m[30m[42m[49m[32m[0m[32m[49m[39m[38;5;238m─────────[0m[38;5;238m[41m[33m INT[0m[33m[41m[41m[33m ✘[0m[33m[41m[41m[33m [0m[33m[41m[41m[33m[37m[0m[37m[41m[47m[30m 16:01:18[0m[30m[47m[47m[30m  [0m[30m[47m[47m[30m [0m[30m[47m[49m[39m
+[0m[49m[39m[38;5;238m╰─[0m[38;5;238m[49m[39m[0m[49m[39m [0m[49m[39m[K[?1h=[?2004hssource ~/.zshrc[15D[7ms[7mo[7mu[7mr[7mc[7me[7m [7m~[7m/[7m.[7mz[7ms[7mh[7mr[7mc[27m[15D[27ms[27mo[27mu[27mr[27mc[27me[27m [27m~[27m/[27m.[27mz[27ms[27mh[27mr[27mc[15D[32ms[32mo[32mu[32mr[32mc[32me[39m [4m~[4m/[4m.[4mz[4ms[4mh[4mr[4mc[24m[?1l>[?2004l
+]2;source ~/.zshrc]1;source                                             ___
+                                          ,o88888
+                                       ,o8888888'
+                 ,:o:o:oooo.        ,8O88Pd8888"
+             ,.::.::o:ooooOoOoO. ,oO8O8Pd888'"
+           ,.:.::o:ooOoOoOO8O8OOo.8OOPd8O8O"
+          , ..:.::o:ooOoOOOO8OOOOo.FdO8O8"
+         , ..:.::o:ooOoOO8O888O8O,COCOO"
+        , . ..:.::o:ooOoOOOO8OOOOCOCO"      _____        _               _   _          
+         . ..:.::o:ooOoOoOO8O8OCCCC"o      | ____|_ __  (_) ___  _   _  | |_| |__   ___ 
+            . ..:.::o:ooooOoCoCCC"o:o      |  _| | '_ \ | |/ _ \| | | | | __| '_ \ / _ \
+            . ..:.::o:o:,cooooCo"oo:o:     | |___| | | || | (_) | |_| | | |_| | | |  __/
+         `   . . ..:.:cocoooo"'o:o:::'     |_____|_| |_|/ |\___/ \__, |  \__|_| |_|\___|
+         .`   . ..::ccccoc"'o:o:o:::'                  |__/      |___/                  
+        :.:.    ,c:cccc"':.:.:.:.:.'          _                                      _
+      ..:.:"'`::::c:"'..:.:.:.:.:.'          (_) ___  _   _ _ __ _ __   ___ _   _   | |
+    ...:.'.:.::::"'    . . . . .'            | |/ _ \| | | | '__| '_ \ / _ \ | | |  | |
+   .. . ....:."' `   .  . . ''               | | (_) | |_| | |  | | | |  __/ |_| |  |_|
+ . . . ...."'                               _/ |\___/ \__,_|_|  |_| |_|\___|\__, |   _
+ .. . ."'                                  |__/                             |___/   (_)
+. 
+    
+[1m[7m%[27m[1m[0m                                                                                           ]7;file://Mac/Users/petrosapien/web-dev/part12-docker/part12-containers-applications]2;petrosapien@Mac]1;..-applications]7;file://Mac/Users/petrosapien/web-dev/part12-docker/part12-containers-applications\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m
+[A[38;5;238m╭─[0m[38;5;238m[47m[38;5;232m [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/[38;5;250mwe[0m[38;5;250m[44m[44m[38;5;254m/part12-docker/[1m[38;5;254m[44m[38;5;255mpart12-containers-applications[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[42m[34m[0m[34m[42m[42m[30m   [30m main [30m?2[0m[30m[42m[42m[30m [0m[30m[42m[49m[32m[0m[32m[49m[39m[38;5;238m─[0m[38;5;238m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[40m[32m[37m[0m[37m[40m[47m[30m 16:01:47[0m[30m[47m[47m[30m  [0m[30m[47m[47m[30m [0m[30m[47m[49m[39m
+[0m[49m[39m[38;5;238m╰─[0m[38;5;238m[49m[39m[0m[49m[39m [0m[49m[39m[K[?1h=[?2004hc[1m[31mc[0m[39m[1m[31mc[0m[39m[90mlear[39m[1m[31mc[1m[31ml[0m[39m[1m[31mc[1m[31ml[1m[31me[0m[39m[1m[31me[1m[31ma[0m[39m[1m[31ma[1m[31mr[0m[39m[0m[32mc[0m[32ml[0m[32me[0m[32ma[0m[32mr[39m[?1l>[?2004l
+]2;clear]1;clear[3J[H[2J[1m[7m%[27m[1m[0m                                                                                           ]7;file://Mac/Users/petrosapien/web-dev/part12-docker/part12-containers-applications]2;petrosapien@Mac]1;..-applications]7;file://Mac/Users/petrosapien/web-dev/part12-docker/part12-containers-applications\[0m[27m[24m[J[0m[49m[39m
+[A[38;5;238m╭─[0m[38;5;238m[47m[38;5;232m [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/[38;5;250mwe[0m[38;5;250m[44m[44m[38;5;254m/part12-docker/[1m[38;5;254m[44m[38;5;255mpart12-containers-applications[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[42m[34m[0m[34m[42m[42m[30m   [30m main [30m?2[0m[30m[42m[42m[30m [0m[30m[42m[49m[32m[0m[32m[49m[39m[38;5;238m─[0m[38;5;238m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[40m[32m[37m[0m[37m[40m[47m[30m 16:01:48[0m[30m[47m[47m[30m  [0m[30m[47m[47m[30m [0m[30m[47m[49m[39m
+[0m[49m[39m[38;5;238m╰─[0m[38;5;238m[49m[39m[0m[49m[39m [0m[49m[39m[K[?1h=[?2004hclear[32mc[32ml[32me[32ma[32mr[39m[?1l>[?2004l
+]2;clear]1;clear[3J[H[2J[1m[7m%[27m[1m[0m                                                                                           ]7;file://Mac/Users/petrosapien/web-dev/part12-docker/part12-containers-applications]2;petrosapien@Mac]1;..-applications]7;file://Mac/Users/petrosapien/web-dev/part12-docker/part12-containers-applications\[0m[27m[24m[J[0m[49m[39m
+[A[38;5;238m╭─[0m[38;5;238m[47m[38;5;232m [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/[38;5;250mwe[0m[38;5;250m[44m[44m[38;5;254m/part12-docker/[1m[38;5;254m[44m[38;5;255mpart12-containers-applications[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[42m[34m[0m[34m[42m[42m[30m   [30m main [30m?2[0m[30m[42m[42m[30m [0m[30m[42m[49m[32m[0m[32m[49m[39m[38;5;238m─[0m[38;5;238m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[40m[32m[37m[0m[37m[40m[47m[30m 16:01:49[0m[30m[47m[47m[30m  [0m[30m[47m[47m[30m [0m[30m[47m[49m[39m
+[0m[49m[39m[38;5;238m╰─[0m[38;5;238m[49m[39m[0m[49m[39m [0m[49m[39m[K[?1h=[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                           ]7;file://Mac/Users/petrosapien/web-dev/part12-docker/part12-containers-applications]2;petrosapien@Mac]1;..-applications]7;file://Mac/Users/petrosapien/web-dev/part12-docker/part12-containers-applications\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m
+[A[38;5;238m╭─[0m[38;5;238m[47m[38;5;232m [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/[38;5;250mwe[0m[38;5;250m[44m[44m[38;5;254m/[38;5;250mp[0m[38;5;250m[44m[44m[38;5;254m/[1m[38;5;254m[44m[38;5;255mpart12-containers-applications[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[42m[34m[0m[34m[42m[42m[30m   [30m main [30m?2[0m[30m[42m[42m[30m [0m[30m[42m[49m[32m[0m[32m[49m[39m[38;5;238m─────────[0m[38;5;238m[41m[33m INT[0m[33m[41m[41m[33m ✘[0m[33m[41m[41m[33m [0m[33m[41m[41m[33m[37m[0m[37m[41m[47m[30m 16:01:52[0m[30m[47m[47m[30m  [0m[30m[47m[47m[30m [0m[30m[47m[49m[39m
+[0m[49m[39m[38;5;238m╰─[0m[38;5;238m[49m[39m[0m[49m[39m [0m[49m[39m[K[?1h=[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                           ]7;file://Mac/Users/petrosapien/web-dev/part12-docker/part12-containers-applications]2;petrosapien@Mac]1;..-applications]7;file://Mac/Users/petrosapien/web-dev/part12-docker/part12-containers-applications\[0m[49m[39m[K
+[0m[27m[24m[J[0m[49m[39m
+[A[38;5;238m╭─[0m[38;5;238m[47m[38;5;232m [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m   [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/[38;5;250mwe[0m[38;5;250m[44m[44m[38;5;254m/[38;5;250mp[0m[38;5;250m[44m[44m[38;5;254m/[1m[38;5;254m[44m[38;5;255mpart12-containers-applications[0m[38;5;255

@@ -1,0 +1,14 @@
+# Node dependencies (will be installed in container)
+node_modules
+
+# Docker-related files
+Dockerfile
+.dockerignore
+
+# Git metadata
+.git
+.gitignore
+
+# Logs
+*.log
+npm-debug.log*

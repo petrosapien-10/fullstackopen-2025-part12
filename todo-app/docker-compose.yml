@@ -1,0 +1,56 @@
+version: '3.9'
+
+services:
+  # --- FRONTEND (React / Vite build) ---
+  frontend:
+    build:
+      context: ./todo-frontend
+      dockerfile: Dockerfile
+      args:
+        - VITE_BACKEND_URL=/api   # inject backend URL at build time
+    container_name: todo-frontend-prod
+
+  # --- BACKEND (Express + Mongo + Redis) ---
+  backend:
+    build:
+      context: ./todo-backend
+      dockerfile: Dockerfile
+    container_name: todo-backend-prod
+    environment:
+      - MONGO_URL=mongodb://root:example@mongo:27017/the_database?authSource=admin
+      - REDIS_URL=redis://redis:6379
+    depends_on:
+      - mongo
+      - redis
+
+  # --- DATABASE (MongoDB) ---
+  mongo:
+    image: mongo
+    container_name: mongo-prod
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+      MONGO_INITDB_DATABASE: the_database
+    volumes:
+      - mongo_data:/data/db   # persist MongoDB data between rebuilds
+
+  # --- CACHE (Redis) ---
+  redis:
+    image: redis
+    container_name: redis-prod
+    command: ["redis-server", "--appendonly", "yes"]
+
+  # --- REVERSE PROXY (Nginx) ---
+  nginx:
+    image: todo-app-frontend:latest   # use the image we built from frontend/Dockerfile
+    container_name: nginx-prod
+    ports:
+      - "8080:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+    - backend
+
+
+volumes:
+  mongo_data:

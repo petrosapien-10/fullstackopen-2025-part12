@@ -1,0 +1,17 @@
+Script started on Wed Oct  8 17:07:00 2025
+[1m[7m%[27m[1m[0m                                                                                          ]7;file://Mac/Users/petrosapien/web-dev/part12-docker/part12-containers-applications[0m[27m[24m[Jpetrosapien@Mac part12-containers-applications % [K[?2004hexitdocker run -it ubuntu bash[?2004l
+[?2004h]0;root@6b900832763a: /root@6b900832763a:/# mkdir -[   p[  src/    usr/src/app
+[?2004l[?2004h]0;root@6b900832763a: /root@6b900832763a:/# touch sr  sur/    usr/src/app/index.js
+[?2004l[?2004h]0;root@6b900832763a: /root@6b900832763a:/# [Kexit
+[?2004lexit
+[1m[7m%[27m[1m[0m                                                                                          ]7;file://Mac/Users/petrosapien/web-dev/part12-docker/part12-containers-applications[0m[27m[24m[Jpetrosapien@Mac part12-containers-applications % [K[?2004hddocker container - la -a   s -a[?2004l
+CONTAINER ID   IMAGE     COMMAND   CREATED          STATUS                     PORTS     NAMES
+6b900832763a   ubuntu    "bash"    31 seconds ago   Exited (0) 7 seconds ago             boring_haibt
+[1m[7m%[27m[1m[0m                                                                                          ]7;file://Mac/Users/petrosapien/web-dev/part12-docker/part12-containers-applications[0m[27m[24m[Jpetrosapien@Mac part12-containers-applications % [K[?2004hcclear[?2004l
+[3J[H[2J[1m[7m%[27m[1m[0m                                                                                          ]7;file://Mac/Users/petrosapien/web-dev/part12-docker/part12-containers-applications[0m[27m[24m[Jpetrosapien@Mac part12-containers-applications % [K[?2004hddocker start borigin   in  ng               d  eexit[?2004l
+
+Saving session...
+...saving history...truncating history files...
+...completed.
+
+Script done on Wed Oct  8 17:08:10 2025

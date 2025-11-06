@@ -1,0 +1,61 @@
+services:
+  # --- FRONTEND (React / Vite) ---
+  app:
+    image: todo-frontend-dev
+    build:
+      context: ./todo-frontend
+      dockerfile: dev.Dockerfile
+    container_name: todo-front-dev
+    volumes:
+      - ./todo-frontend/:/usr/src/app
+
+  # --- BACKEND (Express) ---
+  server:
+    image: todo-backend-dev
+    build:
+      context: ./todo-backend
+      dockerfile: dev.Dockerfile
+    container_name: todo-backend-dev
+    volumes:
+      - ./todo-backend/:/usr/src/app
+    environment:
+      - MONGO_URL=mongodb://root:example@mongo:27017/the_database?authSource=admin
+      - REDIS_URL=redis://redis:6379
+    depends_on:
+      - mongo
+      - redis
+
+  # --- DATABASE (MongoDB) ---
+  mongo:
+    image: mongo
+    container_name: todo-mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+      MONGO_INITDB_DATABASE: the_database
+    volumes:                   
+      - ./todo-backend/mongo/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js
+      - mongo_data:/data/db
+
+  # --- CACHE (Redis) ---
+  redis:
+    image: redis
+    container_name: todo-redis
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - ./redis_data:/data
+
+  # --- REVERSE PROXY (Nginx) ---
+  nginx:
+    image: nginx:1.20.1
+    container_name: reverse-proxy
+    volumes:
+      - ./nginx.dev.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - "8080:80"
+    depends_on:
+      - app
+      - server
+
+volumes:
+  mongo_data:
