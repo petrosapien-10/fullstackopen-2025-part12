@@ -1,0 +1,123 @@
+name: Deployment pipeline
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize]
+
+env:
+  SKIP_DEPLOYMENT: ${{ contains(join(github.event.commits.*.message, ' '), '#skip') }}
+
+jobs:
+  simple_deployment_pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # Install backend dependencies
+      - name: Install backend dependencies
+        run: npm install
+
+      # Install frontend dependencies
+      - name: Install frontend dependencies
+        run: npm install
+        working-directory: ./client
+
+      # Lint backend
+      - name: Lint backend
+        run: npm run lint
+
+      # Lint frontend
+      - name: Lint frontend
+        run: npm run lint
+        working-directory: ./client
+
+      # Build frontend
+      - name: Build frontend
+        run: npm run build
+        working-directory: ./client
+
+      # Test backend
+      - name: Debug environment variables
+        run: |
+          echo "TEST_MONGODB_URI=$TEST_MONGODB_URI"
+          echo "SECRET=$SECRET"
+        env:
+          TEST_MONGODB_URI: ${{ secrets.TEST_MONGODB_URI }}
+          SECRET: ${{ secrets.SECRET }}
+
+      - name: Test backend
+        run: npm test
+        env:
+          TEST_MONGODB_URI: ${{ secrets.TEST_MONGODB_URI }}
+          SECRET: ${{ secrets.SECRET }}
+
+      # Test frontend
+      - name: Test frontend
+        run: npm test
+        working-directory: ./client
+
+      # Install Playwright browsers for e2e
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
+
+      # Run e2e tests (from backend root)
+      - name: E2E tests
+        run: npm run test:e2e
+        env:
+          MONGODB_URI: ${{ secrets.MONGODB_URI }}
+          SECRET: ${{ secrets.SECRET }}
+          PORT: 3003
+
+      # Deploy to Fly.io
+      - name: Deploy to Fly.io
+        if: ${{ github.event_name == 'push' && env.SKIP_DEPLOYMENT == 'false' }}
+        uses: superfly/flyctl-actions/setup-flyctl@master
+      - run: flyctl deploy --remote-only
+        if: ${{ github.event_name == 'push' && env.SKIP_DEPLOYMENT == 'false' }}
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+
+  tag_release:
+    needs: [simple_deployment_pipeline]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Bump version and push tag
+        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && env.SKIP_DEPLOYMENT == 'false' }}
+        uses: anothrNick/github-tag-action@1.64.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DEFAULT_BUMP: patch
+
+  discord_notifications:
+    needs: [simple_deployment_pipeline]
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - name: Notify Discord of deployment success
+        if: ${{ needs.simple_deployment_pipeline.result == 'success' && github.event_name == 'push' && env.SKIP_DEPLOYMENT == 'false' }}
+        uses: sarisia/actions-status-discord@v1
+        with:
+          webhook: ${{ secrets.DISCORD_WEBHOOK }}
+          status: success
+          title: "New version of `Bloglist` is ready!"
+          description: |
+            Deployed on Fly.io succeed!
+          color: 0x00ff00
+      - name: Notify Discord of pipeline failure
+        if: ${{ needs.simple_deployment_pipeline.result == 'failure' }}
+        uses: sarisia/actions-status-discord@v1
+        with:
+          webhook: ${{ secrets.DISCORD_WEBHOOK }}
+          status: failure
+          title: "Build failed!"
+          description: |
+            The deployment pipeline did not succeed.
+          color: 0xff0000

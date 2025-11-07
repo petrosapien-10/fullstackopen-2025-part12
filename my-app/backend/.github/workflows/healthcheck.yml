@@ -1,0 +1,15 @@
+name: Health check
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+jobs:
+  health_check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: check the deployed service URL
+        uses: jtalk/url-health-check-action@v4
+        with:
+          url: https://bloglist-cicd-twilight-grass-4966.fly.dev/
+          max-attempts: 3
+          retry-delay: 20s
